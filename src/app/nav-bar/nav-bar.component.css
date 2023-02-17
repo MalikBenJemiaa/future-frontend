@@ -1,0 +1,99 @@
+.navNav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    border-bottom: 4px solid #006400;
+    display: flex;
+    
+}
+.scrol_nav{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    animation-duration: 3s;
+    height: 60px;
+}
+.scrol_nav1{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    height: 45px;
+    height: 50px;
+}
+.cadre{
+    /* border: 2px solid #006400; */
+    width: 5%;
+    height: 40px;    
+    margin: auto;
+}
+.TheLink{
+    /* border: 2px solid #006400; */
+    /* font-family: Impact; */
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+
+}
+.aa{
+    font-weight: bolder;
+    color: #006400;
+    font-size: 23px;
+    text-decoration:none;
+    margin: auto;
+}
+.nav-mo{
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #006400;
+    display: flex;
+}
+
+.b1{
+    width: 50%;
+    height: 60px; 
+    margin: auto;
+    /* border: 2px solid #006400; */
+    display: flex;
+}
+.title{
+    color: #006400;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    /* border: 2px solid #006400; */
+}
+.title,div{
+    font-family: "Gill Sans", sans-serif;
+    margin: auto;
+}
+.logo-title{
+    width: 15%;
+    height: 40px;
+    /* border: 2px solid #006400; */
+    margin: auto;
+
+}
+.b2{
+    margin: auto;
+    width: 30%;
+    height: 60px; 
+    /* border: 2px solid #006400; */
+    
+}
+.link_bott{
+    background-color: transparent;
+    border: 0px;
+    margin: auto;
+    border: 2px solid #006400;
+    height: 45px;
+    width: 20%;
+}
+.logo_im{
+    display: flex;
+    margin: auto;
+    /* border: 2px solid #006400; */
+    width: 90%;
+    height: 50px;
+}
