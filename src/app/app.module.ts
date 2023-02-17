@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ShowProComponent } from './show-pro/show-pro.component';
 import { ExtraProComponent } from './extra-pro/extra-pro.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ExtraProComponent } from './extra-pro/extra-pro.component';
     BrowserModule,
     FlexLayoutModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
