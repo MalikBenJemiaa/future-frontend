@@ -14,7 +14,7 @@ export class AppComponent implements OnInit,OnDestroy {
   screen_scroll=0
    @HostListener('window:resize',['$event'])
    onWindowResize(){
-    console.log(this.screen_width)
+    // console.log(this.screen_width)
     this.screen_width=window.innerWidth>539
    }
    

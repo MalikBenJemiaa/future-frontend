@@ -3,11 +3,11 @@ body{
 }
 .footerr{
     width: 100%;
-    height: 70px;
+    height: 95px;
     background-color: #3f5d47;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    /* align-content: center; */
 }
 .all_text{
     margin: auto;
@@ -15,35 +15,50 @@ body{
 }
 .text{
     
-    width: 110%;
+    width: 100%;
     height: 25px;
     color: white;
 
 }
 .create{
     font-weight: bolder;
-    border-radius: 30px;
+    border-radius:50%;
     width: 4%;
-    height: 15px;
+    height: 28px;
     border: white 2px solid;
 }
 .icon{
     /* border: white 2px solid; */
-    width: 15%;
+    width: 7%;
+    min-width: 100px;
     height: 25px;
     margin: auto;
     display: flex;
 }
 .icon1{
     margin: auto;
+    background-image: url('../imgg/facebook.svg');
+    background-repeat: no-repeat;
     width: 25%;
     /* border: white 2px solid; */
     
     height: 25px;
 }
 .icon2{
+    background-repeat: no-repeat;
+    background-image: url('../imgg/instagram.svg');
     margin: auto;
     width: 25%;
+    /* border: white 2px solid; */
+    height: 25px;
+    
+}
+.icon3{
+    background-repeat: no-repeat;
+    background-image: url('../imgg/mail.svg');
+    background-size: cover;
+    margin: auto;
+    width: 31%;
     /* border: white 2px solid; */
     height: 25px;
     

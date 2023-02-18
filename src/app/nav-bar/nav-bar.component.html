@@ -1,12 +1,20 @@
 <nav class="navNav" *ngIf="web_width" [ngClass]="style.nav_web1" [ngClass]="style.nav_web2">
-    <div class="cadre"></div>
+    <div class="cadre1"></div>
     <div class="TheLink">
-      <a routerLink="/home" class="aa">HOME</a>
-      <a routerLink="/shop" class="aa">SHOP</a>
-      <a routerLink="/contact" class="aa">CONTACT</a>
-      <a routerLink="/about" class="aa">ABOUT</a>
+      <a routerLink="/main/home" class="aa">HOME</a>
+      <a routerLink="/main/shop" class="aa">SHOP</a>
+      <a routerLink="/main/contact" class="aa">CONTACT</a>
+      <a routerLink="/main/about" class="aa">ABOUT</a>
     </div>
-    <div class="cadre"></div>
+    <div class="cadre">
+      <div class="panier"></div>
+      <div class="notification">
+        <div>
+          <!-- cadre de nombre de produit -->
+        </div>
+        <div></div>
+      </div>
+    </div>
   </nav>
   <nav class="nav-mo" *ngIf="!web_width">
     <div class="b1">
@@ -18,6 +26,8 @@
           <div>FUTURE</div>
         </div>
         <div class="logo-title">
+          <div class="img-logo-1"></div>
+          <div></div>
           <!-- for the icoon after the future -->
         </div>
       </div>

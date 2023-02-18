@@ -1,20 +1,70 @@
 .first-img{
     width: 100%;
-    height: 500px;
+    height: 700px;
     /* border: 2px solid green; */
     display: flex;
-    flex-direction: column
+    background-image: url('../imgg/AA.svg');
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+    flex-direction: column;
+    /* margin-top:20px */
+}
+.background-modile{
+    background-image: url('../imgg/home-background.svg');
+
 }
 .space{
     width: 100%;
-    height: 70%;    
+    height: 60%;    
     /* border: 2px solid green; */
+    display: flex;
     margin: auto;
+}
+.space .cadre-title1{
+    margin: auto;
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid green; */
+}
+.space .cadre-title1 .cadre-title2{
+    margin: auto;
+    text-align: center;
+    color: rgb(6, 79, 11);
+    font-size: 75px;
+    font-weight: bolder;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 75%;
+    
+}
+.space .cadre-title1 .des1{
+    margin: auto;
+    color: rgb(6, 79, 11);
+    font-weight: bolder;
+    text-align: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 25%;
+
+}
+.space .cadre-title1 .under-title-logo{
+margin: auto;
+width: 2%;
+/* border: 2px solid green; */
+background-image: url('../imgg/logo-alien.svg');
+background-size: 80%;
+background-repeat: no-repeat;
+background-position: center;
+height: 20%;
 }
 .cadre_button{
     width: 100%;
     /* border: 2px solid green; */
-    height: 30%;    
+    height: 50%;    
     margin: auto;
     display: flex;
 
@@ -24,15 +74,27 @@
     background-color: aliceblue;
     margin: auto;
     width: 15%;
-    height: 25%;
+    height: 12%;
     min-width: 150px;
     border-radius: 30px;
+    display: flex;
 
 
 
 }
-.icon_button{}
+.icon_button{
+    margin: auto;
+    width: 15%;
+    height: 65%;
+    border: rgb(25, 72, 25) solid 3px;
+    border-radius: 50%;
+    background-color: rgb(25, 72, 25);
+    
+}
 .labell{
+    width: 85%;
+    margin: auto;
+    margin-right: 10%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  rgb(29, 59, 29);
     font-weight :500;
@@ -46,12 +108,14 @@
 .description-cadre{
     
     margin-top: 10px;
- width: 100%;
- /* height: 300px; */
- /* max-height: 900px; */
- /* border: 2px solid green; */
- display: flex;
- flex-wrap: wrap
+    width: 100%;
+    /* height: 300px; */
+    /* max-height: 900px; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+ 
 }
 .text1{
     margin: auto;
@@ -59,14 +123,14 @@
     min-width: 300px;
     /* height: 90%; */
     height: 250px;
-    max-height: 250px;
+    max-height: 350px;
     /* border: 2px solid green; */
     display: flex;
     
 }
 .text1 p{
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 100%;
     margin: auto;
     /* border: 2px solid green; */
     

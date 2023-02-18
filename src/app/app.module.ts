@@ -12,6 +12,8 @@ import { AboutComponent } from './about/about.component';
 import { ShowProComponent } from './show-pro/show-pro.component';
 import { ExtraProComponent } from './extra-pro/extra-pro.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AccueilComponent } from './accueil/accueil.component';
+import { MainWorkComponent } from './main-work/main-work.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     AboutComponent,
     ShowProComponent,
-    ExtraProComponent
+    ExtraProComponent,
+    AccueilComponent,
+    MainWorkComponent
   ],
   imports: [
     BrowserModule,

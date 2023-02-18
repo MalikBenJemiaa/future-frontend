@@ -1,6 +1,11 @@
-<div class="first-img">
+<div [ngClass]="style.main_background" class="first-img" >
     <div class="space">
-        <!-- the background of this div in the home cover -->
+
+       <div class="cadre-title1">
+        <div class="cadre-title2" *ngIf="screen_width">FUTURE</div>
+        <div class="des1" *ngIf="screen_width">FORM THE FUTURE TO THE FUTURE //STAY TUNED</div>
+        <div class="under-title-logo"></div>
+       </div>
     </div>
     <div class="cadre_button">
         <button class="button-shop">
@@ -13,6 +18,9 @@
     <div class="text1">
         <p> 
             the first paragraphe
+            Pourquoi on utilise Angular ?
+            Résultat de recherche d'images pour "angular"
+            Le principal avantage de AngularJS est qu'il permet aux développeurs de traduire des documents HTML statiques en contenu dynamique. AngularJS est devenu un choix de choix pour les applications Web, ayant un Architecture MVC, et des outils robustes, en particulier pour les applications d'une seule page.
         </p>
     </div>
     <div class="mockup-cadre">
@@ -24,6 +32,11 @@
     <div class="text1 text2">
         <p>
             the second paragraphe
+            Pourquoi on utilise Angular ?
+            Résultat de recherche d'images pour "angular"
+            Le principal avantage de AngularJS est qu'il
+             permet aux développeurs de traduire des documents HTML statiques en contenu dynamique. 
+             AngularJS est devenu un choix de choix pour les applications Web, ayant un Architecture MVC, et des outils robustes, en particulier pour les applications d'une seule page.
         </p>
     </div>
 </div>

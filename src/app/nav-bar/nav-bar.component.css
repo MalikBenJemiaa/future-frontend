@@ -18,11 +18,50 @@
     height: 45px;
     height: 50px;
 }
+.cadre1{
+    /* border: 2px solid #006400; */
+    /* width: 5%; */
+    width: 3%;
+    min-width: 40px;
+    height: 40px;    
+    margin: auto;
+    background-image: url("../imgg/logo-alien.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .cadre{
     /* border: 2px solid #006400; */
     width: 5%;
     height: 40px;    
     margin: auto;
+    display: flex;
+    
+}
+.panier{
+    margin: auto;
+    width: 70%;
+    min-width:40px;
+    height: 111%;
+    background-image: url("../imgg/logo-sac.svg");
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    /* border: #006400 2px solid; */
+}
+.notification{
+    margin: auto;
+    width: 30%;
+    height: 100%;    
+    /* border: #006400 2px solid; */
+    display: flex;
+    flex-direction: column
+    
+}
+.notification div{
+    margin: auto;
+    width: 100%;
+    height: 50%;    
+    /* border: #006400 2px solid; */
+
 }
 .TheLink{
     /* border: 2px solid #006400; */
@@ -55,7 +94,7 @@
     display: flex;
 }
 .title{
-    color: #006400;
+    color: #205420;
     font-size: 25px;
     font-weight: 800;
     display: flex;
@@ -69,9 +108,23 @@
     margin: auto;
 }
 .logo-title{
-    width: 15%;
+    width: 17%;
     height: 40px;
-    /* border: 2px solid #006400; */
+    display: flex;
+    flex-direction: column
+}
+.logo-title div{
+    width: 100%;
+    /* height: 100%; */
+    margin: auto;
+}
+.img-logo-1{
+    border: 2px solid #205420;
+    height: 65%;
+    background-image:url('../imgg/logo-alien.svg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
     margin: auto;
 
 }
