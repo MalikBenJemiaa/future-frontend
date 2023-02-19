@@ -24,8 +24,12 @@
     align-content: center;
 }
 .front-image{
-    width: 25%;
+    /* if we wana split it into front  and back photo we must make the width 25%  */
+    width: 60%;
     height: 130px;
+    background-image:url('../imgg/capuche.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
     /* border: 2px rgb(248, 246, 246) solid; */
 }
@@ -66,6 +70,19 @@
     
 }
 .des{
-    text-align: left;
+    text-align: left; 
+}
+.pagination{
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* border: #006400 2px solid; */
+}
+.pagggg{
     
+    margin: auto;
+}
+.page-link{
+    color: #174517;
 }

@@ -1,5 +1,5 @@
-<nav class="navNav" *ngIf="web_width" [ngClass]="style.nav_web1" [ngClass]="style.nav_web2">
-    <div class="cadre1"></div>
+<nav class="navNav" *ngIf="web_width" [ngClass]="style.nav_web1" >
+    <a class="cadre1" href="/acceuil"></a>
     <div class="TheLink">
       <a routerLink="/main/home" class="aa">HOME</a>
       <a routerLink="/main/shop" class="aa">SHOP</a>
@@ -7,16 +7,14 @@
       <a routerLink="/main/about" class="aa">ABOUT</a>
     </div>
     <div class="cadre">
-      <div class="panier"></div>
-      <div class="notification">
-        <div>
-          <!-- cadre de nombre de produit -->
+      <div class="panier">
+        <div class="order_number">
+          <label for="">9</label>
         </div>
-        <div></div>
       </div>
-    </div>
+       </div>
   </nav>
-  <nav class="nav-mo" *ngIf="!web_width">
+  <nav class="nav-mo" *ngIf="!web_width"  [ngClass]="style.nav_web1" >
     <div class="b1">
       <button class="link_bott">
         <!-- for the three - -->
@@ -32,7 +30,15 @@
         </div>
       </div>
     </div>
+    <div class="b12"></div>
     <div class="b2">
-      <!-- for the mock-up of shop -->
+
+      <div class="cadre">
+        <div class="panier">
+          <div class="order_number">
+            <label for="">9</label>
+          </div>
+        </div>
+         </div>
     </div>
   </nav>

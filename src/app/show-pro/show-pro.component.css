@@ -1,10 +1,11 @@
 .item-pr{
     /* margin: auto; */
     margin: auto;
-    margin-top: 80px;
-    width: 45%;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    width: 40%;
     min-width: 300px;
-     height: 150px; 
+     height: 200px; 
     /* min-height: 80px; */
     /* border: 0px solid #006400;  */
     background-color: #293c2e;
@@ -18,9 +19,16 @@
 }
 .front-image{
     margin: auto;
-    width: 40%;
-    height: 180px;
-    border: black 2px solid;
+    /* if you like to split it into back and fornt photo we must make the width 40% */
+    width: 80%;
+    height: 150%;
+    /* border: black 2px solid; */
+    background-image: url("../imgg/capuche.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center center;
+   
 }
 .back-image{
     margin: auto;

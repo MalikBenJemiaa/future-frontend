@@ -3,20 +3,19 @@
     width: 100%;
     height: 60px;
     border-bottom: 4px solid #006400;
-    display: flex;
-    
-}
-.scrol_nav{
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
-    animation-duration: 3s;
-    height: 60px;
+   transition: 0.2s;
+    display: flex;
 }
 .scrol_nav1{
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0;
-    height: 45px;
-    height: 50px;
+    visibility: hidden;
+    transform: translateY(-60px);    
+    /* position: fixed; Set the navbar to fixed position */
+    /* animation-duration: 0.6s; */
+    /* top: 0; */
+    /* height: 45px; */
+    /* height: 50px; */
 }
 .cadre1{
     /* border: 2px solid #006400; */
@@ -47,20 +46,22 @@
     background-size:cover ;
     /* border: #006400 2px solid; */
 }
-.notification{
-    margin: auto;
-    width: 30%;
-    height: 100%;    
-    /* border: #006400 2px solid; */
-    display: flex;
-    flex-direction: column
-    
+
+.order_number{
+    margin-right: 2px;
+    width: 50%;
+    height: 45%;
+   border: red 2px solid;
+   background-color: rgb(255, 0, 0);
+   border-radius:50% ;
+   display: flex;
 }
-.notification div{
+.order_number label{
+    
+    font-size: 12px;
+    font-weight: bold;
     margin: auto;
-    width: 100%;
-    height: 50%;    
-    /* border: #006400 2px solid; */
+    color: aliceblue;
 
 }
 .TheLink{
@@ -80,10 +81,15 @@
     margin: auto;
 }
 .nav-mo{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    transition: 0.2s;
     width: 100%;
     height: 70px;
     border-bottom: 2px solid #006400;
     display: flex;
+    /* background-color: aliceblue; */
+    background-color: aliceblue;
 }
 
 .b1{
@@ -92,6 +98,10 @@
     margin: auto;
     /* border: 2px solid #006400; */
     display: flex;
+}
+.b12{
+    margin: auto;
+    width: 20%;
 }
 .title{
     color: #205420;
@@ -130,8 +140,9 @@
 }
 .b2{
     margin: auto;
-    width: 30%;
-    height: 60px; 
+    display: flex;
+    width: 20%;
+    height: 50px; 
     /* border: 2px solid #006400; */
     
 }

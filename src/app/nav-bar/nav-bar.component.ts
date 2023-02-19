@@ -11,25 +11,30 @@ export class NavBarComponent {
   screen_scroll:any
   style={
     nav_web1:'',
-    nav_web2:'',
-    nav_mobile:''
+    nav_mobile:'',
   }
   @HostListener('window:scroll', ['$event2']) 
    doSomething() {
+    if (this.screen_scroll<window.pageYOffset){
+        // console.log("down")
+        this.style.nav_web1='scrol_nav1'
+      }else{
+        // console.log("up")
+        this.style.nav_web1=''
+    }
      this.screen_scroll=window.pageYOffset;
      
-      this.reglage()
+      // this.reglage()
     }
   reglage(){
     if (this.screen_scroll>700){
-      this.style.nav_web2='scrol_nav1'
     }
     else if (this.screen_scroll>200){
       this.style.nav_web1='scrol_nav' 
     }
     else{
       this.style.nav_web1=''
-      this.style.nav_web2=''
+      // this.style.nav_web2=''
     }
   }
 }
