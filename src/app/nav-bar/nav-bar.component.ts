@@ -12,12 +12,15 @@ export class NavBarComponent {
   style={
     nav_web1:'',
     nav_mobile:'',
+    nav_links:'',
   }
   @HostListener('window:scroll', ['$event2']) 
    doSomething() {
     if (this.screen_scroll<window.pageYOffset){
         // console.log("down")
         this.style.nav_web1='scrol_nav1'
+        this.style.nav_links=''
+
       }else{
         // console.log("up")
         this.style.nav_web1=''
@@ -25,6 +28,18 @@ export class NavBarComponent {
      this.screen_scroll=window.pageYOffset;
      
       // this.reglage()
+    }
+    vsibilityBot=()=>{
+      // console.log("hello")
+      if (this.style.nav_links==''){
+      this.style.nav_links='viClass'
+      }else{
+        this.style.nav_links=''
+      }
+    }
+    clearli=()=>{
+      this.style.nav_links=''
+
     }
   reglage(){
     if (this.screen_scroll>700){

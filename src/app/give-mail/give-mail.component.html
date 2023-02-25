@@ -1,0 +1,29 @@
+<div class="cadre">
+  <div class="cadre1">
+    <div class="cadre11" *ngIf="screen_width">
+      Give us your mail address to update you with our product
+    </div>
+    <div class="cadre111" *ngIf="!screen_width">
+      Give us your mail address to update you
+    </div>
+    <div class="cadre12" *ngIf="screen_width"></div>
+  </div>
+  <div class="cadre2">
+    <div class="cadre21">
+      <div class="input-group flex-nowrap inp">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="email"
+          aria-label="Username"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <div class="botton-send">
+        <button>Send</button>
+      </div>
+    </div>
+  </div>
+  <div class="reglage"></div>
+</div>

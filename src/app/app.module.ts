@@ -14,6 +14,7 @@ import { ExtraProComponent } from './extra-pro/extra-pro.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MainWorkComponent } from './main-work/main-work.component';
+import { GiveMailComponent } from './give-mail/give-mail.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MainWorkComponent } from './main-work/main-work.component';
     ShowProComponent,
     ExtraProComponent,
     AccueilComponent,
-    MainWorkComponent
+    MainWorkComponent,
+    GiveMailComponent
   ],
   imports: [
     BrowserModule,
