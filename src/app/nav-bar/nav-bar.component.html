@@ -1,10 +1,10 @@
 <nav class="navNav" *ngIf="web_width" [ngClass]="style.nav_web1">
-  <a class="cadre1" href="/acceuil"></a>
+  <a class="cadre1" href="/"></a>
   <div class="TheLink">
-    <a routerLink="/main/home" class="aa">HOME</a>
-    <a routerLink="/main/shop" class="aa">SHOP</a>
-    <a routerLink="/main/contact" class="aa">CONTACT</a>
-    <a routerLink="/main/about" class="aa">ABOUT</a>
+    <a routerLink="/home" class="aa">HOME</a>
+    <a routerLink="/shop" class="aa">SHOP</a>
+    <a routerLink="/contact" class="aa">CONTACT</a>
+    <a routerLink="/about" class="aa">ABOUT</a>
   </div>
   <div class="cadre">
     <div class="panier">
@@ -18,10 +18,10 @@
   <div class="links" [ngClass]="style.nav_links">
     <div class="back-ground-opacity" [ngClass]="style.nav_links"></div>
     <div class="home1">
-      <a (click)="clearli()" routerLink="/main/home" class="linkH">Home</a>
+      <a (click)="clearli()" routerLink="/home" class="linkH">Home</a>
     </div>
     <div class="shop1">
-      <a (click)="clearli()" routerLink="/main/shop" class="shopshop11">
+      <a (click)="clearli()" routerLink="/shop" class="shopshop11">
         <div class="shopshop">Shop</div>
         <div class="add">COTUMIZED</div>
         <div class="add">HOODIES</div>
@@ -30,12 +30,10 @@
       </a>
     </div>
     <div class="contact1">
-      <a (click)="clearli()" routerLink="/main/contact" class="linkC"
-        >Contact</a
-      >
+      <a (click)="clearli()" routerLink="/contact" class="linkC">Contact</a>
     </div>
     <div class="about1">
-      <a (click)="clearli()" routerLink="/main/about" class="linkA">About</a>
+      <a (click)="clearli()" routerLink="/about" class="linkA">About</a>
     </div>
   </div>
   <div class="b1">

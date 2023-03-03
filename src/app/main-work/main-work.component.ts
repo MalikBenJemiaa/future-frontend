@@ -15,9 +15,7 @@ export class MainWorkComponent {
     this.screen_width=window.innerWidth>539
    }
    constructor(private Route:Router ){
-    if (this.Route.url=='/main'){
-     this.Route.navigateByUrl('/main/home')
-    }
+    
    }
 
 }

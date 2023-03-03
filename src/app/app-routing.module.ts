@@ -9,11 +9,11 @@ import { ShowProComponent } from './show-pro/show-pro.component';
 import { ExtraProComponent } from './extra-pro/extra-pro.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MainWorkComponent } from './main-work/main-work.component';
-
+// PS when we rout he start search the link from the 1st to the and to when he find it he rander here component
 const routes: Routes = [
-  {path:'acceuil',component:AccueilComponent},
-  {path:'main',component:MainWorkComponent,children:[
-    { path: 'home', component: HomePageComponent },
+  {path:'',component:AccueilComponent},             
+  {path:'',component:MainWorkComponent,children:[
+    {path: 'home', component: HomePageComponent },
     {path:'shop',component:ShopComponent},
     {path:'contact',component:ContactComponent},
     {path:'about',component:AboutComponent},
