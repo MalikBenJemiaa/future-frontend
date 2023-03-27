@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MainWorkComponent } from './main-work/main-work.component';
 import { GiveMailComponent } from './give-mail/give-mail.component';
+import { RandomItemComponent } from './random-item/random-item.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { GiveMailComponent } from './give-mail/give-mail.component';
     ExtraProComponent,
     AccueilComponent,
     MainWorkComponent,
-    GiveMailComponent
+    GiveMailComponent,
+    RandomItemComponent
   ],
   imports: [
     BrowserModule,

@@ -11,13 +11,14 @@ export class AccueilComponent {
   style ={
     nav_web1:"",
     screen_width1:window.innerWidth>900,
-    screen_width2:window.innerWidth>601
+    screen_width2:window.innerWidth>618
   }
    @HostListener('window:resize',['$event'])
    onWindowResize(){
     // console.log(this.screen_width)
     this.style.screen_width1=window.innerWidth>900
-    this.style.screen_width2=window.innerWidth>601
+    this.style.screen_width2=window.innerWidth>618
+    
     // console.log("slmslm")
    }
   
