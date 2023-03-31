@@ -1,168 +1,341 @@
-.first-img{
-    width: 100%;
-    height: 700px;
-    /* border: 2px solid green; */
-    display: flex;
-    background-image: url('../imgg/AA.svg');
-    background-repeat: no-repeat;
-    /* background-size: 100% auto; */
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    
-    flex-direction: column;
-    /* margin-top:20px */
-}
-.background-modile{
-    background-image: url('../imgg/home-background.svg');
+.first-img {
+  width: 100%;
+  height: 700px;
+  /* border: 2px solid green; */
+  display: flex;
+  background-image: url("../imgg/AA.svg");
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 
+  flex-direction: column;
+  /* margin-top:20px */
 }
-.space{
-    width: 100%;
-    height: 60%;    
-    /* border: 2px solid green; */
-    display: flex;
-    margin: auto;
+.background-modile {
+  background-image: url("../imgg/home-background.svg");
 }
-.space .cadre-title1{
-    margin: auto;
-    width: 100%;
-    height: 30%;
-    /* border: 2px solid green; */
+.space {
+  width: 100%;
+  height: 60%;
+  /* border: 2px solid green; */
+  display: flex;
+  margin: auto;
 }
-.space .cadre-title1 .cadre-title2{
-    margin: auto;
-    text-align: center;
-    color: rgb(6, 79, 11);
-    font-size: 75px;
-    font-weight: bolder;
-    /* border: 2px solid green; */
-    width: 100%;
-    height: 75%;
-    
+.space .cadre-title1 {
+  margin: auto;
+  width: 100%;
+  height: 30%;
+  /* border: 2px solid green; */
 }
-.space .cadre-title1 .des1{
-    margin: auto;
-    color: rgb(6, 79, 11);
-    font-weight: bolder;
-    text-align: center;
-    /* border: 2px solid green; */
-    width: 100%;
-    height: 25%;
-
+.space .cadre-title1 .cadre-title2 {
+  margin: auto;
+  text-align: center;
+  color: rgb(6, 79, 11);
+  font-size: 75px;
+  font-weight: bolder;
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 75%;
 }
-.space .cadre-title1 .under-title-logo{
-margin: auto;
-width: 2%;
-/* border: 2px solid green; */
-background-image: url('../imgg/logo-alien.svg');
-background-size: 80%;
-background-repeat: no-repeat;
-background-position: center;
-height: 20%;
+.space .cadre-title1 .des1 {
+  margin: auto;
+  color: rgb(6, 79, 11);
+  font-weight: bolder;
+  text-align: center;
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 25%;
 }
-.cadre_button{
-    width: 100%;
-    /* border: 2px solid green; */
-    height: 50%;    
-    margin: auto;
-    display: flex;
-
+.space .cadre-title1 .under-title-logo {
+  margin: auto;
+  width: 2%;
+  /* border: 2px solid green; */
+  background-image: url("../imgg/logo-alien.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20%;
 }
-.button-shop{
-    border: 3px solid rgb(29, 59, 29);
-    background-color: aliceblue;
-    margin: auto;
-    width: 15%;
-    height: 12%;
-    min-width: 150px;
-    border-radius: 30px;
-    display: flex;
-
-
-
+.cadre_button {
+  width: 100%;
+  /* border: 2px solid green; */
+  height: 50%;
+  margin: auto;
+  display: flex;
 }
-.icon_button{
-    margin: auto;
-    width: 15%;
-    height: 65%;
-    border: rgb(25, 72, 25) solid 3px;
-    border-radius: 50%;
-    background-color: rgb(25, 72, 25);
-    
+.button-shop {
+  border: 3px solid rgb(29, 59, 29);
+  background-color: aliceblue;
+  margin: auto;
+  width: 15%;
+  height: 12%;
+  min-width: 150px;
+  border-radius: 30px;
+  display: flex;
 }
-.labell{
-    width: 85%;
-    margin: auto;
-    margin-right: 10%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  rgb(29, 59, 29);
-    font-weight :500;
+.icon_button {
+  margin: auto;
+  width: 15%;
+  height: 65%;
+  border: rgb(25, 72, 25) solid 3px;
+  border-radius: 50%;
+  background-color: rgb(25, 72, 25);
+}
+.labell {
+  width: 85%;
+  margin: auto;
+  margin-right: 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(29, 59, 29);
+  font-weight: 500;
 }
 
-.button-shop:active{
-    background-color: rgb(222, 234, 89);
-    /* color:  rgb(226, 226, 226); */
+.button-shop:active {
+  background-color: rgb(222, 234, 89);
+  /* color:  rgb(226, 226, 226); */
+}
+.description-cadre {
+  margin-top: 10px;
+  width: 100%;
+  /* height: 300px; */
+  /* max-height: 900px; */
+  /* border: 2px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.text1 {
+  margin: auto;
+  width: 33%;
+  min-width: 300px;
+  /* height: 90%; */
+  height: 250px;
+  max-height: 350px;
+  /* border: 2px solid green; */
+  display: flex;
+}
+.text1 p {
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  margin-top: 25px;
+  /* border: 2px solid green; */
+}
+.mockup-cadre {
+  max-height: 250px;
+  margin: auto;
+  width: 30%;
+  min-width: 300px;
+  /* height: 90%; */
+  height: 250px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+}
+.mockup-photo {
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assetes/_tran.jpg");
+  margin: auto;
+  width: 50%;
+  min-width: 200px;
+  height: 150px;
+  /* border: 2px solid gray; */
+}
+.mockup-photo:hover {
+  width: 60%;
+  height: 180px;
+}
+.mockup-title {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  /* border: 2px solid green; */
+}
+.mockup-title label {
+  font-size: x-large;
+  text-align: center;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(29, 59, 29);
+}
+.ZZZ {
+  margin-top: 25px;
+  width: 100%;
+  height: 200px;
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(196, 236, 131, 0.6);
+}
+.ZZZ .co {
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 22%;
+  min-width: 250px;
+  display: flex;
+  height: 180px;
+  /* border-bottom: solid 4px whitesmoke; */
+}
 
+.box1 {
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  flex-direction: column;
+  color: rgb(84, 85, 66);
+  /* color: rgb(163, 163, 163); */
+  text-align: center;
+  font-weight: bold;
+  font-size: 39px;
+  border: none !important;
 }
-.description-cadre{
-    
-    margin-top: 10px;
-    width: 100%;
-    /* height: 300px; */
-    /* max-height: 900px; */
-    /* border: 2px solid green; */
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
- 
+.box1 label {
+  /* margin-top: 40px; */
+  /* margin-bottom: -30px; */
+  font-size: 60px;
 }
-.text1{
-    margin: auto;
-    width: 33%;
-    min-width: 300px;
-    /* height: 90%; */
-    height: 250px;
-    max-height: 350px;
-    /* border: 2px solid green; */
-    display: flex;
-    
+
+.bb5 {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.text1 p{
-    width: 95%;
-    height: 100%;
-    margin: auto;
-    /* border: 2px solid green; */
-    
+.bb5 .a1 {
+  color: rgb(98, 100, 98);
+  font-weight: bold;
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 100%;
+  height: 20%;
 }
-.mockup-cadre{
-    max-height: 250px;
-    margin: auto;
-    width: 30%;
-    min-width: 300px;
-    /* height: 90%; */
-    height: 250px;
-    /* border: 2px solid green; */
-    display: flex;
-    flex-direction: column
+.bb5 .a2 {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(98, 100, 98);
+  font-weight: lighter;
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 100%;
+  height: 60%;
 }
-.mockup-photo{
-    margin: auto;
-    width: 95%;
-    height: 85%;
-    /* border: 2px solid gray; */
+
+.hero2 {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  /* border: solid 2px black; */
+  display: flex;
+  flex-direction: column;
 }
-.mockup-title{
-    display: flex;
-    width: 100%;
-    height: 15%;
-    text-align: center;
-    /* border: 2px solid green; */
+.hero2_title {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  /* border: 2px solid black; */
+  display: flex;
 }
-.mockup-title label{
-    font-size:x-large;
-    text-align: center;
-    margin: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  rgb(29, 59, 29);
-} 
+.hero2_title div {
+  margin: auto;
+  font-size: large;
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(118, 118, 118);
+  font-weight: bold;
+}
+.hero2_title div label {
+  color: rgb(51, 129, 37);
+  font-weight: bolder;
+}
+.hero2_body {
+  margin: auto;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  /* border: 2px solid black; */
+  flex-wrap: wrap;
+}
+.bodybo {
+  margin: auto;
+  min-width: 300px;
+  width: 30%;
+  height: 250px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.bodybo div {
+  margin: auto;
+}
+.boLogo {
+  margin: auto;
+  width: 100%;
+  height: 40%;
+  /* border: 2px solid bisque; */
+}
+.boLogo svg {
+  width: 100%;
+  height: 100%;
+}
+.boTitle {
+  margin: auto;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(110, 110, 110);
+}
+.boDes {
+  margin: auto;
+  width: 100%;
+  height: 45%;
+  display: flex;
+
+  /* border: 1px solid black; */
+}
+.boDes div {
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  color: rgb(117, 116, 116);
+  font-size: smaller;
+  font-weight: bold;
+  font-family: "Gill Sans", sans-serif;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+@media screen and (max-width: 1021px) {
+  .hero2 {
+    height: 600px;
+  }
+  .box1 label {
+    margin-top: 0px;
+    /* margin-bottom: -30px; */
+    font-size: 50px;
+  }
+  .ZZZ {
+    height: 450px;
+  }
+  @media screen and (max-width: 583px) {
+    .hero2 {
+      height: 900px;
+    }
+  }
+  @media screen and (max-width: 577px) {
+    .ZZZ {
+      height: 950px;
+    }
+  }
+}
