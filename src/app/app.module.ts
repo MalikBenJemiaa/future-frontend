@@ -16,6 +16,8 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { MainWorkComponent } from './main-work/main-work.component';
 import { GiveMailComponent } from './give-mail/give-mail.component';
 import { RandomItemComponent } from './random-item/random-item.component';
+import { LoginComponent } from './login/login.component';
+import { ShowproductComponent } from './showproduct/showproduct.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { RandomItemComponent } from './random-item/random-item.component';
     AccueilComponent,
     MainWorkComponent,
     GiveMailComponent,
-    RandomItemComponent
+    RandomItemComponent,
+    LoginComponent,
+    ShowproductComponent
   ],
   imports: [
     BrowserModule,

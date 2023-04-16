@@ -1,0 +1,55 @@
+<div class="maincomcom">
+  <div class="les-photos">
+    <div class="mainpho dd">
+      <img
+        [src]="proncipal"
+        alt="Girl in a jacket"
+        width="100%"
+        height="auto"
+      />
+    </div>
+    <div class="otherpho dd">
+      <button *ngFor="let k of a; index as i" (click)="changemain(i)">
+        <img [src]="a[i]" alt="Girl in a jacket" width="100%" height="100%" />
+      </button>
+
+      <!-- <button [style]="k"></button> -->
+      <!-- <button [style]="k"></button> -->
+      <!-- <button [style]="k"></button> -->
+    </div>
+  </div>
+  <div class="prroc-detail">
+    <div class="titre">Nike Roshe LD 1000</div>
+    <div class="dessss">Collaboration with Fragement</div>
+    <div class="release">Release Date : -03-12-2015-</div>
+    <div class="price-ref">
+      <div class="under12">
+        <div class="price">120</div>
+        <div class="dtt">dt</div>
+        <div class="reff">Product Reference: PR50120</div>
+      </div>
+    </div>
+    <form class="buttonsss">
+      <select name="pets" id="pet-select" class="select">
+        <option value="" class="defval">Size</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+      <select name="pet" id="pet-selec" class="select hyhy">
+        <option value="" class="defval">Color</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+      <button class="adddi">ADD TO CART</button>
+    </form>
+    <div class="ps">You must have an account to order any product.</div>
+  </div>
+</div>

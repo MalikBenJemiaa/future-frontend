@@ -1,4 +1,5 @@
 import { Component, HostListener, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-accueil',
@@ -6,6 +7,9 @@ import { Component, HostListener, Input } from '@angular/core';
   styleUrls: ['./accueil.component.css']
 })
 export class AccueilComponent {
+  constructor(private router: Router){
+
+  }
   @Input ('width') web_width:any
   screen_scroll=0;
   style ={
@@ -31,5 +35,8 @@ export class AccueilComponent {
        this.style.nav_web1=''
    }
     this.screen_scroll=window.pageYOffset;
+    }
+    gotosignin=()=>{
+      this.router.navigate(['/login']);
     }
 }

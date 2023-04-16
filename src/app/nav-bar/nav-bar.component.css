@@ -1,4 +1,5 @@
 .navNav {
+  z-index: 3;
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 60px;
@@ -20,8 +21,8 @@
 .cadre1 {
   /* border: 2px solid #006400; */
   /* width: 5%; */
-  width: 3%;
-  min-width: 40px;
+  /* width: 3%; */
+  width: 40px;
   height: 40px;
   margin: auto;
   background-image: url("../imgg/logo-alien.svg");
@@ -40,6 +41,7 @@
   width: 70%;
   min-width: 40px;
   height: 111%;
+  max-width: 70px;
   background-image: url("../imgg/logo-sac.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,6 +79,7 @@
   margin: auto;
 }
 .nav-mo {
+  z-index: 3;
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   transition: 0.2s;
@@ -128,6 +131,7 @@ div {
 .img-logo-1 {
   border: 2px solid #205420;
   height: 65%;
+  max-width: 150px;
   background-image: url("../imgg/logo-alien.svg");
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,65 +1,136 @@
-body{
-    margin: 0px;
+.ZZZ {
+  /* margin-top: 25px;  */
+  width: 100%;
+  height: 200px;
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(196, 236, 131, 0.6);
 }
-.footerr{
-    width: 100%;
-    height: 95px;
-    background-color: #3f5d47;
-    display: flex;
-    flex-wrap: wrap;
-    /* align-content: center; */
+.ZZZ .co {
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 22%;
+  min-width: 250px;
+  display: flex;
+  height: 180px;
+  /* border-bottom: solid 4px whitesmoke; */
 }
-.all_text{
-    margin: auto;
-    text-align: center;
-}
-.text{
-    
-    width: 100%;
-    height: 25px;
-    color: white;
 
+.box1 {
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  flex-direction: column;
+  color: rgb(84, 85, 66);
+  /* color: rgb(163, 163, 163); */
+  text-align: center;
+  font-weight: bold;
+  font-size: 39px;
+  border: none !important;
 }
-.create{
-    font-weight: bolder;
-    border-radius:50%;
-    width: 4%;
-    height: 28px;
-    border: white 2px solid;
+.box1 label {
+  /* margin-top: 40px; */
+  /* margin-bottom: -30px; */
+  font-size: 60px;
 }
-.icon{
-    /* border: white 2px solid; */
-    width: 7%;
-    min-width: 100px;
-    height: 25px;
-    margin: auto;
-    display: flex;
+
+.bb5 {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.icon1{
-    margin: auto;
-    background-image: url('../imgg/facebook.svg');
-    background-repeat: no-repeat;
-    width: 25%;
-    /* border: white 2px solid; */
-    
-    height: 25px;
+.bb5 .a1 {
+  color: rgb(98, 100, 98);
+  font-weight: bold;
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 100%;
+  height: 20%;
 }
-.icon2{
-    background-repeat: no-repeat;
-    background-image: url('../imgg/instagram.svg');
-    margin: auto;
-    width: 25%;
-    /* border: white 2px solid; */
-    height: 25px;
-    
+.bb5 .a2 {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(98, 100, 98);
+  font-weight: lighter;
+  /* border: solid yellow 2px; */
+  margin: auto;
+  width: 100%;
+  height: 60%;
 }
-.icon3{
-    background-repeat: no-repeat;
-    background-image: url('../imgg/mail.svg');
-    background-size: cover;
-    margin: auto;
-    width: 31%;
-    /* border: white 2px solid; */
-    height: 25px;
-    
+body {
+  margin: 0px;
+}
+.footerr {
+  width: 100%;
+  height: 95px;
+  background-color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(196, 236, 131, 0.6);
+
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: center; */
+}
+.all_text {
+  margin: auto;
+  text-align: center;
+}
+.text {
+  width: 100%;
+  height: 25px;
+  color: rgb(63, 58, 58);
+}
+.create {
+  font-weight: bolder;
+  border-radius: 50%;
+  width: 4%;
+  height: 28px;
+  border: rgb(63, 58, 58) 2px solid;
+}
+.icon {
+  /* border: white 2px solid; */
+  width: 7%;
+  min-width: 100px;
+  height: 25px;
+  margin: auto;
+  display: flex;
+}
+.icon1 {
+  margin: auto;
+  background-image: url("../imgg/facebook.svg");
+  background-repeat: no-repeat;
+  width: 25%;
+  /* border: white 2px solid; */
+
+  height: 25px;
+}
+.icon2 {
+  background-repeat: no-repeat;
+  background-image: url("../imgg/instagram.svg");
+  margin: auto;
+  width: 25%;
+  /* border: white 2px solid; */
+  height: 25px;
+}
+.icon3 {
+  background-repeat: no-repeat;
+  background-image: url("../imgg/mail.svg");
+  background-size: cover;
+  margin: auto;
+  width: 31%;
+  /* border: white 2px solid; */
+  height: 25px;
+}
+@media screen and (max-width: 999px) {
+  .ZZZ {
+    height: 450px;
+  }
+
+  @media screen and (max-width: 499px) {
+    .ZZZ {
+      height: 900px;
+    }
+  }
 }

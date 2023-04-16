@@ -9,7 +9,7 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   transition: 0.2s;
-  background-color: rgba(0 0 0 / 0%);
+  /* background-color: rgba(0 0 0 / 0%); */
   display: flex;
 }
 .scrol_nav1 {
@@ -47,7 +47,7 @@ body {
 .hero {
   /* background-color: rgb(0 0 0 / 14%); */
   /* background-color: rgba(17, 184, 17, 0.18); */
-  background-color: rgba(33, 122, 10, 0.336);
+  /* background-color: rgba(33, 122, 10, 0.336); */
   /* background-color: rgba(84, 84, 84, 0.14); */
 
   width: 100%;
@@ -119,14 +119,18 @@ body {
 }
 #home {
   border: none;
-  background-color: white;
+  background-color: rgb(65, 107, 69);
+  color: white;
+  border-radius: 3px;
 }
 #home:hover {
-  background-color: rgb(181, 180, 180);
+  background-color: rgb(47, 80, 50);
+  /* background-color: rgb(181, 180, 180); */
 }
 #home:active {
-  background-color: transparent;
-  border: black 2px solid;
+  /* background-color: transparent; */
+  background-color: rgb(37, 61, 39);
+  /* border: black 2px solid; */
 }
 #sign:active {
   background-color: white;

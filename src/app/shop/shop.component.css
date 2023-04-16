@@ -1,88 +1,275 @@
-.scoller{
-    margin-top: 100px;
+#filltre {
+  width: 75%;
+  margin: auto;
+  height: 50px;
+  /* height: 50px; */
+  border-bottom: 2px solid rgb(139, 139, 139);
+  /* background-color: #006400; */
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+}
+#filltre .mm {
+  /* margin: auto; */
+}
+#filtre_form {
+  /* text-align: center; */
+  /* border-bottom: 2px solid rgb(139, 139, 139); */
+  width: 38%;
+  /* background-color: #006400; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+#filtre_form .filtreee {
+  height: 30px;
+  text-align: center;
+  /* padding: auto auto auto auto; */
+  /* background-color: #006400; */
+  display: flex;
+  padding-top: 4px;
+  margin-right: 8px;
+  /* justify-content: center; */
+  /* margin: auto; */
+  /* border: 2px solid rgb(139, 139, 139); */
+}
+#filtre_form .theSelct {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #006400; */
+}
+#filtre_form .theSelct select {
+  margin-left: 5px;
+  /* background-color: #006400; */
+  height: 30px;
+  border: 0px solid rgba(139, 139, 139, 0.521);
+  color: black;
+  background-color: transparent;
+}
+/* #filtre_form .theSelct select .dd {
+  /* font-size: 20px; */
+/* border: 0px; */
+
+.scoller {
+  margin-top: 30px;
+  width: 100%;
+  /* height: 1000px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* text-align: right; */
+}
+
+.item-pr {
+  margin: auto;
+  margin-top: 30px;
+  /* margin-top: 100px; */
+
+  min-width: 350px;
+  height: 120px;
+  border: 0px solid #006400;
+  background-color: #738678;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.front-image {
+  /* if we wana split it into front  and back photo we must make the width 25%  */
+  width: 60%;
+  height: 130px;
+  background-image: url("../imgg/capuche.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* border: 2px rgb(248, 246, 246) solid; */
+}
+.back-image {
+  width: 25%;
+  height: 130px;
+  margin: auto;
+  /* border: 2px rgb(252, 245, 245) solid; */
+}
+.data-pr {
+  width: 40%;
+  height: 80px;
+  margin: auto;
+  /* border: 2px rgb(235, 226, 226) solid; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+.title-pr {
+  margin: auto;
+  color: white;
+  font-weight: bolder;
+  font-size: 17px;
+  text-align: left;
+}
+.title-pr,
+div {
+  /* margin-left: -12px; */
+  padding-left: 0px;
+}
+.description-pr {
+  text-align: left;
+  margin: auto;
+  font-size: 10px;
+  color: white;
+}
+.des {
+  text-align: left;
+}
+.pagination {
+  margin-top: 20px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  /* border: #006400 2px solid; */
+}
+.pagggg {
+  margin: auto;
+}
+.page-link {
+  color: #174517;
+}
+.other_pro {
+  width: 75%;
+  /* background-color: #006400 ; */
+  height: 50px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #666666;
+
+  /* border-bottom: 2px solid rgb(139, 139, 139); */
+}
+.the_cartes {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.lacartee {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* background-color: #00491F; */
+  width: 200px;
+  height: 310px;
+  /* min-width: 300px; */
+  /* border: 2px solid black; */
+  margin: auto;
+  /* margin-top: 150px; */
+  display: flex;
+}
+.lacartee:hover .la-pic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lacartee:hover .lacartee-orgignal {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.lacartee:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lacartee-orgignal {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  background-color: #ffffff;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.la-pic {
+  margin: auto;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  background-color: #00491f;
+  /* border: #00491F solid 2px; */
+  width: 95%;
+  height: 75%;
+  background-image: url("./assetes/capp.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+.lacartee .lacartee-orgignal .text {
+  margin: auto;
+  /* background-color: #ffffff; */
+  width: 95%;
+  height: 20%;
+}
+.lacartee .lacartee-orgignal .text .ttitte {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #050505;
+  text-decoration: none;
+}
+.lacartee .lacartee-orgignal .text .tyypppe {
+  color: #646464;
+}
+.lacartee .lacartee-orgignal .text .reff {
+  font-weight: bold;
+  color: #646464;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1263px) {
+  #filltre {
     width: 100%;
-    /* height: 1000px; */
-    display: flex;
-    flex-wrap: wrap;
-    /* text-align: right; */
-
+    /* height: 80px; */
+    /* border: 0px; */
+  }
+  #filltre .res {
+    /* font-size: 30px; */
+    margin-left: 10px;
+  }
 }
-
-.item-pr{
-
-    margin: auto;
-    margin-top: 30px;
-    /* margin-top: 100px; */
-    
-   min-width:  350px;
-    height: 120px;
-     border: 0px solid #006400; 
-    background-color: #738678;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-.front-image{
-    /* if we wana split it into front  and back photo we must make the width 25%  */
-    width: 60%;
-    height: 130px;
-    background-image:url('../imgg/capuche.svg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    /* border: 2px rgb(248, 246, 246) solid; */
-}
-.back-image{
-    width: 25%;
-    height: 130px;
-    margin: auto;
-    /* border: 2px rgb(252, 245, 245) solid; */
-    
-}
-.data-pr{
-    width: 40%;
-    height: 80px;
-    margin: auto;
-    /* border: 2px rgb(235, 226, 226) solid; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-}
-.title-pr{
-    margin: auto;
-    color: white;
-    font-weight: bolder;
-    font-size: 17px;
-    text-align: left;
-}
- .title-pr,div{
-    
-    /* margin-left: -12px; */
-    padding-left:0px ;
-} 
-.description-pr{
-    text-align: left;
-    margin: auto;
-    font-size: 10px;
-    color: white;
-    
-}
-.des{
-    text-align: left; 
-}
-.pagination{
-    margin-top: 20px;
-    width: 100%;
+@media screen and (max-width: 947px) {
+  #filltre {
     height: 70px;
-    display: flex;
-    /* border: #006400 2px solid; */
+  }
+  #filltre .res {
+    font-size: 25px;
+    /* margin-left: 10px; */
+  }
 }
-.pagggg{
-    
-    margin: auto;
+@media screen and (max-width: 807px) {
+  #filltre {
+    /* height: 100px; */
+    /* font-size: 30px; */
+  }
+  #filltre .res {
+    font-size: 30px;
+    /* margin-left: 10px; */
+  }
 }
-.page-link{
-    color: #174517;
+@media screen and (max-width: 666px) {
+  #filltre {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #filltre {
+    background-color: #00640011;
+    width: 100%;
+    height: 130px;
+    margin-top: 70px;
+
+    border: 0px;
+  }
+  #filltre .res {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #filtre_form .theSelct select {
+    /* background-color: #0b410b; */
+    width: 100%;
+    font-size: 9px;
+  }
 }

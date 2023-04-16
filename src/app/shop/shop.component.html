@@ -1,39 +1,83 @@
+<div id="filltre">
+  <div class="mm res">Showing all 25 results</div>
+  <form id="filtre_form" class="mm">
+    <div class="filtreee">filtered:</div>
+    <div class="theSelct">
+      <select name="cars" id="cars">
+        <option value="volvo">Order by</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+      <select name="cars" id="cars">
+        <option class="dd" value="volvo">Color</option>
+        <option class="dd" value="saab">Saab</option>
+        <option class="dd" value="mercedes">Mercedes</option>
+        <option class="dd" value="audi">Audi</option>
+      </select>
+      <select name="cars" id="cars">
+        <option value="volvo">Type</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+    </div>
+  </form>
+</div>
 <div class="scoller">
-    <!-- *ngFor="let k of rrange" -->
-    <button class="item-pr"  *ngFor="let k of rrange">
-        <div class="front-image">
-          <!-- for the front image -->
-        </div>
-        <!-- <div class="back-image">
+  <!-- *ngFor="let k of rrange" -->
+  <button class="item-pr" *ngFor="let k of rrange">
+    <div class="front-image">
+      <!-- for the front image -->
+    </div>
+    <!-- <div class="back-image">
           for the front image 
         </div> -->
-        <div class="data-pr">
-          <div class="title-pr">
-            <div>BLACK FUTURE HOODIE .</div>
-          </div>
-          <div class="description-pr">
-            <div class="des">FROM FUTURE TO THE FUTURE</div>
-            <div>// STAY TUNED</div>
-          </div>
-        </div>
-      </button>
-      <div class="pagination">
-        <nav aria-label="Page navigation example" class="pagggg">
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link"  aria-label="Previous"> <!-- this is for the << -->
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li class="page-item"><a class="page-link" >1</a></li>
-            <li class="page-item"><a class="page-link" >2</a></li>
-            <li class="page-item"><a class="page-link" >3</a></li>
-            <li class="page-item">
-              <a class="page-link"  aria-label="Next"> <!-- this is for the next -->
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+    <div class="data-pr">
+      <div class="title-pr">
+        <div>BLACK FUTURE HOODIE .</div>
       </div>
+      <div class="description-pr">
+        <div class="des">FROM FUTURE TO THE FUTURE</div>
+        <div>// STAY TUNED</div>
+      </div>
+    </div>
+  </button>
+  <div class="pagination">
+    <nav aria-label="Page navigation example" class="pagggg">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" aria-label="Previous">
+            <!-- this is for the << -->
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link">1</a></li>
+        <li class="page-item"><a class="page-link">2</a></li>
+        <li class="page-item"><a class="page-link">3</a></li>
+        <li class="page-item">
+          <a class="page-link" aria-label="Next">
+            <!-- this is for the next -->
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>
+<div class="other_pro">other product related</div>
+<div class="the_cartes">
+  <div class="lacartee" *ngFor="let item of wwww; index as i">
+    <div class="lacartee-orgignal">
+      <div class="la-pic"></div>
+      <div class="text">
+        <a class="ttitte" href="facebook.com">DOCKER</a>
+        <div class="tyypppe">CAP</div>
+        <div class="reff">REF: PR5047POO1</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="other_pro">coming soon</div>
+<app-extra-pro></app-extra-pro>
+<app-extra-pro></app-extra-pro>

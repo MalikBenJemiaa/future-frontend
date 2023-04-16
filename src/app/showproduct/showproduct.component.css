@@ -1,0 +1,258 @@
+.maincomcom {
+  margin: auto;
+  /* background-color: #9fcbd110; */
+  /* box-shadow: 1px 4px 8px 3px rgba(0, 0, 0, 0.2), */
+  /* 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+  margin-top: 70px;
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.les-photos {
+  margin: auto;
+  /* border: 2px solid black; */
+  width: 40%;
+  min-width: 320px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.les-photos .dd {
+  margin: auto;
+  /* border: 2px solid black; */
+}
+.mainpho {
+  /* background-image: url("./assets/capp.jpg"); */
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+  /* background-image: url('../pic/cap-hab.jpg'); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  width: 80%;
+  height: 70%;
+}
+.mainpho img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-position: center center;
+  background-size: cover;
+  /* background-size: cover; */
+  /* vertical-align: middle; */
+  /* object-fit: cover; */
+}
+.otherpho {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  /* border: #000000 2px solid; */
+}
+.otherpho button {
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% auto; */
+  /* background-attachment: fixed; */
+  /* background-position: center center; */
+  /* background-image: url('../pic/cap-hab.jpg'); */
+
+  /* background-size: cover; */
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 20%;
+  height: 100%;
+}
+
+.prroc-detail {
+  margin: auto;
+  /* border: 2px solid black; */
+  width: 42%;
+  min-width: 350px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prroc-detail .titre {
+  margin: auto;
+  width: 100%;
+  margin-top: -35px;
+  height: 15%;
+  font-weight: bold;
+  font-size: 300%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* border: 2px solid black; */
+}
+.prroc-detail .dessss {
+  margin: auto;
+  width: 100%;
+  height: 8%;
+  /* border: 2px solid black; */
+  margin-top: -5px;
+  font-size: 21pt;
+  color: rgb(68, 68, 68);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.prroc-detail .release {
+  margin: auto;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15pt;
+  color: rgb(68, 68, 68);
+  height: 8%;
+  /* border: 2px solid black; */
+}
+.prroc-detail .price-ref {
+  margin: auto;
+  width: 100%;
+  height: 15%;
+}
+.prroc-detail .price-ref .under12 {
+  height: 100%;
+  width: 80%;
+  /* border: 2px solid black; */
+  display: flex;
+}
+.prroc-detail .price-ref .under12 .price {
+  /* border: 2px solid black; */
+  margin: auto;
+  width: 24%;
+  min-width: 105px;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.prroc-detail .price-ref .under12 .dtt {
+  font-weight: bold;
+  /* border: 2px solid black; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  font-size: 20px;
+  width: 26%;
+  margin-top: 35px;
+}
+.prroc-detail .price-ref .under12 .reff {
+  /* border: 2px solid black; */
+  margin: auto;
+  width: 50%;
+  margin-top: 35px;
+
+  font-size: 12pt;
+  color: rgb(68, 68, 68);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.prroc-detail .buttonsss {
+  margin: auto;
+  width: 100%;
+  height: 12%;
+  /* border: 2px solid black; */
+}
+.hyhy {
+  margin-left: 5px;
+}
+.prroc-detail .ps {
+  font-weight: bold;
+  font-size: 12pt;
+  color: rgb(68, 68, 68);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  height: 8%;
+  /* border: 2px solid black; */
+  margin: auto;
+  width: 100%;
+}
+/* @media screen and (max-width:1170px) { */
+@media screen and (max-width: 1170px) {
+  .prroc-detail .price-ref .under12 .dtt {
+    margin-top: 45px;
+  }
+  .prroc-detail {
+    margin-left: 0px;
+  }
+  .prroc-detail .dessss {
+    margin-top: 20px;
+  }
+  .prroc-detail {
+    height: 100%;
+  }
+  /* .titre{ */
+  /* margin-top: -20px; */
+  /* height: 100px; */
+  /* border: 2px solid black; */
+  /* } */
+}
+.select {
+  width: 18%;
+  height: 100%;
+  border: 2px solid black;
+  font-size: 18px;
+  color: rgb(68, 68, 68);
+}
+.select:hover {
+  background-color: #000000;
+  /* background-color: #2C6B54; */
+  color: rgb(255, 255, 255);
+}
+.adddi {
+  width: 37%;
+  height: 100%;
+  background-color: #2c6b54;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0px;
+  font-size: 20px;
+  margin-top: -1px;
+  margin-left: 15px;
+  min-width: 180px;
+}
+.adddi:hover {
+  background-color: #225341;
+}
+.adddi:active {
+  background-color: #1a4032;
+}
+.defval {
+  /* color: brown; */
+  margin-right: 10px;
+}
+@media screen and (max-width: 747px) {
+  .maincomcom {
+    height: 1150px;
+    margin-top: 60px;
+  }
+  .prroc-detail .price-ref .under12 .dtt {
+    margin-top: 40px;
+  }
+  .prroc-detail {
+    height: 45%;
+    width: 100%;
+  }
+  .prroc-detail .price-ref .under12 .reff {
+    width: 440px;
+    /* margin-right: -20px; */
+    font-size: 11px;
+    margin-top: 60px;
+    /* border: 2px solid black; */
+  }
+  .les-photos {
+    height: 40%;
+    width: 100%;
+  }
+  .adddi {
+    margin-right: 5px;
+  }
+  .prroc-detail .dessss {
+    margin-top: 30px;
+    /* background-image: url("./assets/sac.jpg"); */
+  }
+}
