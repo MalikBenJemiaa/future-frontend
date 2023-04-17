@@ -1,107 +1,233 @@
-.item-pr{
-    /* margin: auto; */
-    margin: auto;
-    margin-top: 130px;
-    margin-bottom: 30px;
-    width: 40%;
-    min-width: 300px;
-     height: 200px; 
-    /* min-height: 80px; */
-    /* border: 0px solid #006400;  */
-    background-color: #293c2e;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+.item-pr {
+  /* margin: auto; */
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  width: 40%;
+  min-width: 300px;
+  height: 200px;
+  /* min-height: 80px; */
+  /* border: 0px solid #006400;  */
+  background-color: #293c2e;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
-.item-pr-mobile{
-    height: 110px;
+
+.item-pr-mobile {
+  height: 110px;
 }
-.front-image{
-    margin: auto;
-    /* if you like to split it into back and fornt photo we must make the width 40% */
-    width: 80%;
-    height: 150%;
-    /* border: black 2px solid; */
-    background-image: url("../imgg/capuche.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    background-position: center center;
-   
+.front-image {
+  margin: auto;
+  /* if you like to split it into back and fornt photo we must make the width 40% */
+  width: 80%;
+  height: 150%;
+  /* border: black 2px solid; */
+  background-image: url("../imgg/capuche.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center center;
 }
-.back-image{
-    margin: auto;
-    width: 40%;
-    height: 180px;
-    border: black 2px solid;
-    
+.back-image {
+  margin: auto;
+  width: 40%;
+  height: 180px;
+  border: black 2px solid;
 }
 /* style for the show cover end!!*/
-.title-create-product{
-    /* margin: auto; */
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    /* border: 2px #738678 solid; */
+.title-create-product {
+  /* margin: auto; */
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  /* border: 2px #738678 solid; */
 }
-.title-title-create-product{
-    font-size: 45px;
-    
-    color: #006400;
-    font-weight: 900;
+.title-title-create-product {
+  font-size: 45px;
+
+  color: #006400;
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+  /* font-size: 30px;  */
+}
+.title-title-create-product-mobile {
+  font-size: 30px;
+  align-content: center;
+}
+.des-title-create-product {
+  font-size: 15px;
+  margin: auto;
+  color: #2d4533;
+  align-content: center;
+  display: flex;
+  /* margin-top: -50px; */
+}
+.des-title-create-product-mobile {
+  font-size: 12px;
+  margin-top: -10px;
+}
+.order-button {
+  background-color: transparent;
+  max-width: 15%;
+  min-width: 200px;
+  height: 50px;
+  margin: auto;
+  color: #006400;
+  border: 2px solid #006400;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+.order-button-mobile {
+  margin-top: 10px;
+  font-size: 18px;
+  min-width: 180px;
+}
+.order-button:hover {
+  background-color: #293c2e;
+  color: aliceblue;
+}
+.alerta {
+  position: absolute;
+  /* top: -150px; */
+  top: -300px;
+  /* top: 150px; */
+  left: 25%;
+  margin: auto;
+  /* animation-name: example; */
+  animation-duration: 0.5s;
+  /* margin-top: 50px; */
+  border: 2px solid gray;
+  box-shadow: 1px 1px 20px 2px rgb(200, 204, 206);
+  visibility: hidden;
+  width: 50%;
+  height: 150px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+
+.alerta .text {
+  margin: auto;
+  color: rgb(42, 68, 42);
+  font-size: 27px;
+  font-weight: bold;
+}
+.alerta form {
+  margin: auto;
+  margin-top: 20px;
+}
+.alerta form .inputs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.alerta form .inputs input {
+  border: 1px solid rgb(51, 51, 51);
+  height: 25px;
+  margin: auto;
+}
+.alerta form .inputs select {
+  width: 80px;
+  height: 25px;
+
+  margin: auto;
+  margin-left: 10px;
+  height: 25px;
+  border: 1px solid rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+}
+.alerta form .bottuns {
+  margin-top: 10px;
+  display: flex;
+}
+.alerta form .bottuns .bb {
+  margin: auto;
+  width: 70px;
+  height: 25px;
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 16px;
+  /* height: 30px; */
+}
+.alerta form .bottuns .can {
+  background-color: rgb(79, 83, 83);
+}
+.alerta form .bottuns .con {
+  background-color: rgb(56, 109, 65);
+}
+.alerta form .bottuns .can:hover {
+  background-color: rgb(66, 70, 70);
+}
+.alerta form .bottuns .con:hover {
+  background-color: rgb(47, 90, 54);
+}
+.alerta form .bottuns .can:active {
+  background-color: rgb(52, 54, 54);
+}
+.alerta form .bottuns .con:active {
+  background-color: rgb(33, 65, 38);
+}
+
+@media only screen and (max-width: 529px) {
+  .alerta {
+    /* width: 80%; */
+    height: 220px;
+  }
+  .alerta form .inputs input {
+    margin-top: -20px;
     margin: auto;
-    text-align: center;
-    /* font-size: 30px;  */
-}
-.title-title-create-product-mobile{
-    font-size: 30px; 
-    align-content: center;
-
-
-}
-.des-title-create-product{
-    font-size: 15px;
+  }
+  .alerta form {
+    margin-top: -20px;
+  }
+  .alerta form .inputs {
+    height: 80%;
+  }
+  .alerta form .inputs input {
+    width: 80%;
+  }
+  .alerta form .inputs select {
+    margin-left: 0px;
+    margin-top: 50px;
     margin: auto;
-    color: #2d4533;
-    align-content: center;
-    display: flex;
-    /* margin-top: -50px; */
-    
+    /* width: 80%; */
+  }
 }
-.des-title-create-product-mobile{
-    font-size: 12px;
-    margin-top: -10px;
-
+.toAdd {
+  animation-name: example;
+  top: 120px;
+  visibility: visible;
 }
-.order-button{
-    
-    background-color: transparent;
-    max-width: 15%;
-    min-width: 200px;
-    height: 50px;
-    margin: auto;
-    color: #006400;
-    border: 2px solid #006400;
-    border-radius: 30px;
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: 800;
-    
-    
+@keyframes example {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 120px;
+  }
 }
-.order-button-mobile{
-    margin-top: 10px;
-    font-size: 18px;
-    min-width: 180px;
-
+.toAdd1 {
+  animation-name: example1;
+  top: -150px;
+  visibility: hidden;
+  animation-duration: 0.5s;
 }
-.order-button:hover{
-    background-color: #293c2e;
-    color: aliceblue;
+@keyframes example1 {
+  0% {
+    top: 120px;
+  }
+  100% {
+    top: -150px;
+  }
 }
-/* Title page end!!*/

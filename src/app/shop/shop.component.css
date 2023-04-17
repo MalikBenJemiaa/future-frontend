@@ -74,6 +74,17 @@
   flex-wrap: wrap;
   align-content: center;
 }
+.item-pr:hover {
+  background-color: #667068;
+}
+.item-pr:hover .front-image {
+  width: 60%;
+  /* background-color: #ffffff; */
+  height: 135px;
+}
+.item-pr:active {
+  background-color: #585e59;
+}
 .front-image {
   /* if we wana split it into front  and back photo we must make the width 25%  */
   width: 60%;

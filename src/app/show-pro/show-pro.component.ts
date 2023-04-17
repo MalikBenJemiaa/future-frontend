@@ -36,6 +36,16 @@ export class ShowProComponent {
   constructor(){
     this.checkSize()
   }
+  stylraaa=""
+  alertshow=()=>{
+    this.stylraaa="toAdd"
+  }
+  BBadd=()=>{
+   this.stylraaa="toAdd1"
+   
+  }
+  BBcansel=()=>{
+   this.stylraaa="toAdd1"
 
-
+ }
 }
