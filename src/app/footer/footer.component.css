@@ -1,4 +1,6 @@
 .ZZZ {
+  position: relative;
+  bottom: 0px;
   /* margin-top: 25px;  */
   width: 100%;
   height: 200px;
@@ -64,6 +66,8 @@ body {
   margin: 0px;
 }
 .footerr {
+  position: relative;
+  bottom: 0px;
   width: 100%;
   height: 95px;
   background-color: rgba(245, 245, 245, 0.6);

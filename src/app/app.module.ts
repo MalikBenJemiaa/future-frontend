@@ -18,6 +18,8 @@ import { GiveMailComponent } from './give-mail/give-mail.component';
 import { RandomItemComponent } from './random-item/random-item.component';
 import { LoginComponent } from './login/login.component';
 import { ShowproductComponent } from './showproduct/showproduct.component';
+import { PurchaseCartComponent } from './purchase-cart/purchase-cart.component';
+import { SignINComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { ShowproductComponent } from './showproduct/showproduct.component';
     GiveMailComponent,
     RandomItemComponent,
     LoginComponent,
-    ShowproductComponent
+    ShowproductComponent,
+    PurchaseCartComponent,
+    SignINComponent
   ],
   imports: [
     BrowserModule,

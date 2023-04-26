@@ -11,10 +11,13 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { MainWorkComponent } from './main-work/main-work.component';
 import { LoginComponent } from './login/login.component';
 import { ShowproductComponent } from './showproduct/showproduct.component';
+import { PurchaseCartComponent } from './purchase-cart/purchase-cart.component';
+import { SignINComponent } from './sign-in/sign-in.component';
 // PS when we rout he start search the link from the 1st to the and to when he find it he rander here component
 const routes: Routes = [
   {path:'',component:AccueilComponent},
   {path:'login',component:LoginComponent},             
+  {path:'signIn',component:SignINComponent},             
   {path:'',component:MainWorkComponent,children:[
     {path:'otherProduct/:id' ,component:ShowproductComponent},
     {path: 'home', component: HomePageComponent },
@@ -23,6 +26,8 @@ const routes: Routes = [
     {path:'about',component:AboutComponent},
     {path:'product/:id',component:ShowProComponent},
     {path:'extraProduct',component:ExtraProComponent},
+    {path:"ticket",component:PurchaseCartComponent},
+    
   ]}
 ];
 @NgModule({
