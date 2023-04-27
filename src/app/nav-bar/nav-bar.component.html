@@ -4,7 +4,7 @@
     <a routerLink="/home" class="aa">HOME</a>
     <a routerLink="/shop" class="aa">SHOP</a>
     <a routerLink="/contact" class="aa">CONTACT</a>
-    <a routerLink="/about" class="aa">ABOUT</a>
+    <a routerLink="/about" class="aa">EXTRA PRODUCT</a>
   </div>
   <div class="cadre">
     <a class="panier" routerLink="/ticket">
@@ -33,14 +33,14 @@
       <a (click)="clearli()" routerLink="/contact" class="linkC">Contact</a>
     </div>
     <div class="about1">
-      <a (click)="clearli()" routerLink="/about" class="linkA">About</a>
+      <a (click)="clearli()" routerLink="/about" class="linkA">EXTRA PRODUCT</a>
     </div>
   </div>
   <div class="b1">
     <button class="link_bott" (click)="vsibilityBot()">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div [ngClass]="style.bar1"></div>
+      <div [ngClass]="style.bar2"></div>
+      <div [ngClass]="style.bar3"></div>
     </button>
     <div class="logo_im">
       <div class="title">
