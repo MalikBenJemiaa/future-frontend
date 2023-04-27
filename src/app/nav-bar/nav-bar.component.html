@@ -43,9 +43,9 @@
       <div [ngClass]="style.bar3"></div>
     </button>
     <div class="logo_im">
-      <div class="title">
+      <a class="title" href="/">
         <div>FUTURE</div>
-      </div>
+      </a>
       <div class="logo-title">
         <div class="img-logo-1"></div>
         <div></div>
@@ -54,7 +54,7 @@
     </div>
   </div>
   <div class="b12"></div>
-  <div class="b2">
+  <a class="b2" (click)="clearli1()" routerLink="/ticket">
     <div class="cadre">
       <div class="panier">
         <div class="order_number">
@@ -62,5 +62,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </nav>

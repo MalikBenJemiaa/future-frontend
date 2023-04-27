@@ -20,8 +20,8 @@
 .lacartee {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   /* background-color: #00491F; */
-  width: 200px;
-  height: 310px;
+  width: 150px;
+  height: 250px;
   /* min-width: 300px; */
   /* border: 2px solid black; */
   margin: auto;
@@ -431,7 +431,7 @@
 
 @media screen and (max-width: 1181px) {
   .the4 {
-    height: 720px;
+    /* height: 720px; */
   }
   @media screen and (max-width: 1157px) {
     .the4 .containt .WW {
@@ -446,16 +446,19 @@
     .the4 .tittlle {
       height: 5%;
     }
-    @media screen and (max-width: 773px) {
-      .the4 .tittlle {
-        height: 5%;
-      }
+    @media screen and (max-width: 882px) {
       .the4 {
-        height: 1300px;
+        height: 650px;
       }
-      @media screen and (max-width: 488px) {
-        .the4 {
-          height: 1800px;
+      @media screen and (max-width: 773px) {
+        .the4 .tittlle {
+          height: 5%;
+        }
+
+        @media screen and (max-width: 529px) {
+          .the4 {
+            height: 1000px;
+          }
         }
       }
     }

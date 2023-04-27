@@ -52,6 +52,11 @@ export class NavBarComponent {
       this.vsibilityBot()
 
     }
+    clearli1=()=>{
+      this.style.nav_links=''
+      // this.vsibilityBot()
+
+    }
   reglage(){
     if (this.screen_scroll>700){
     }
