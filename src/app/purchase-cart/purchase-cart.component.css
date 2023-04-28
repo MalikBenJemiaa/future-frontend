@@ -1,8 +1,21 @@
 body {
   margin: 0px 0px 0px 0px;
 }
+.titleee {
+  /* margin-top: 50px; */
+  /* background-color: #006400 ; */
+  /* height: 50px; */
+  /* margin: auto; */
+  font-weight: 800;
+  margin-top: 90px;
+  font-size: 24px;
+  color: #666666;
+  /* margin-left: 100px; */
+  margin-left: 10%;
+  /* border-bottom: 2px solid rgb(139, 139, 139); */
+}
 .theAll {
-  margin-top: 70px;
+  /* margin-top: 70px;   */
   margin-bottom: 50px;
   width: 100%;
   /* height: 100px; */

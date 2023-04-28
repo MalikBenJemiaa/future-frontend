@@ -1,3 +1,164 @@
+.p1 {
+  width: 60%;
+  height: 300px;
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
+}
+.p1 .p11 {
+  width: 50%;
+  height: 100%;
+  /* margin: 350px; */
+  /* min-width: 300px; */
+  /* background-color: #DBD7D0; */
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(#dad3cb 2%, #ebe7e3 80%);
+}
+.p1 .p11 .www {
+  width: 35%;
+  /* border: 2px solid black; */
+  height: 100%;
+  margin: auto;
+  /* background-color: #DBD7D0; */
+}
+.p1 .p11 .m1 {
+  background: linear-gradient(#dad3cb 2%, #ebe7e3 80%);
+}
+.p1 .p11 .m3 {
+  /* background: linear-gradient(#DAD3CB 2%, #EBE7E3 80%,#E0DCD6 10%); */
+  background: linear-gradient(#d4cec6 2%, #e4dfdb, #dfdbd3);
+}
+.p1 .p11 .m2 {
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  background-image: url("./assetes/imim.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1 .p12 {
+  /* background-color: #DBD7D0; */
+  /* background: linear-gradient(#DAD3CB 2%, #EBE7E3 80%); */
+  background: linear-gradient(#d4cec6 2%, #e4dfdb, #dfdbd3);
+  z-index: 2;
+  width: 50%;
+  /* min-width: 250px; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.p1 .p12 h1 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(79, 79, 79);
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+.p1 .p12 p {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(94, 94, 94);
+  font-size: 18px;
+  font-weight: bold;
+}
+.p1 .p12 button {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(46, 46, 46);
+  color: black;
+  font-size: 21px;
+  background-color: transparent;
+  padding-top: 3px;
+}
+.p1 .p12 button:hover {
+  background-color: rgb(62, 105, 62);
+  color: white;
+  border: 2px solid rgb(62, 105, 62);
+}
+.p1 .p12 button:active {
+  background-color: rgb(47, 79, 47);
+  color: white;
+  border: 2px solid rgb(47, 79, 47);
+}
+.theHoodies {
+  margin: auto;
+  margin-top: 30px;
+  /* border: 2px solid rgb(46, 46, 46); */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.theHoodies .til {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(79, 79, 79);
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+
+.theHoodies .thepipic {
+  /* border: 2px solid rgb(46, 46, 46); */
+  width: 50%;
+  min-width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+.theHoodies .thepipic div {
+  width: 150px;
+  height: 200px;
+  /* border: 2px solid rgb(46, 46, 46); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* border: 2px solid rgb(172, 172, 172); */
+  background-size: 90%;
+}
+.theHoodies .thepipic .front {
+  background-image: url("./assetes/capucheFront.jpg");
+}
+.theHoodies .thepipic .back {
+  background-image: url("./assetes/capucheback.jpg");
+
+  /* height: 220px; */
+}
+
+@media only screen and (max-width: 972px) {
+  .p1 {
+    flex-wrap: wrap;
+    width: 350px;
+    height: 450px;
+  }
+  .theHoodies .til {
+    margin-left: 10px;
+  }
+  .p1 .p11 {
+    width: 350px;
+    margin: auto;
+    /* height: 50%; */
+    height: 125px;
+    position: absolute;
+    /* width: 100%; */
+  }
+  .p1 .p12 {
+    width: 350px;
+    background-color: transparent !important;
+    /* background-color: # */
+    margin: auto;
+    /* width: 100%; */
+    height: 300px;
+  }
+  .theHoodies {
+    margin-top: -60px;
+  }
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 .first-img {
   width: 100%;
   height: 700px;
@@ -112,6 +273,23 @@
   /* border: 2px solid green; */
   width: 100%;
   height: 25%;
+}
+.space .cadre-title1 .sza {
+  margin: auto;
+  color: rgb(6, 79, 11);
+  font-weight: bolder;
+  text-align: center;
+  /* border: 2px solid green; */
+  margin-left: -0px;
+  margin-top: 190px;
+  width: 90%;
+  height: 200px;
+  background-image: url("./assetes/slogan2.png");
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: 100%;
 }
 .space .cadre-title1 .under-title-logo {
   margin: auto;
