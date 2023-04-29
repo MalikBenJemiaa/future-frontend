@@ -1,3 +1,138 @@
+.ourdes {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  /* border: #00491f solid 1px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ourdes .thecappic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.uu {
+  margin-top: 20px;
+}
+.item-pr {
+  /* margin: auto; */
+  margin-top: 10px;
+  /* margin-top: 100px; */
+
+  min-width: 350px;
+  height: 120px;
+  border: 0px solid #006400;
+  background-color: #738678;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.item-pr:hover {
+  background-color: #667068;
+}
+.item-pr:hover .front-image {
+  width: 60%;
+  /* background-color: #ffffff; */
+  height: 135px;
+}
+.item-pr:active {
+  background-color: #585e59;
+}
+.front-image {
+  /* if we wana split it into front  and back photo we must make the width 25%  */
+  width: 60%;
+  height: 130px;
+  background-image: url("../imgg/capuche.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* border: 2px rgb(248, 246, 246) solid; */
+}
+.back-image {
+  width: 25%;
+  height: 130px;
+  margin: auto;
+  /* border: 2px rgb(252, 245, 245) solid; */
+}
+.data-pr {
+  width: 40%;
+  height: 80px;
+  margin: auto;
+  /* border: 2px rgb(235, 226, 226) solid; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+.title-pr {
+  margin: auto;
+  color: white;
+  font-weight: bolder;
+  font-size: 17px;
+  text-align: left;
+}
+.title-pr,
+div {
+  /* margin-left: -12px; */
+  padding-left: 0px;
+}
+.description-pr {
+  text-align: left;
+  margin: auto;
+  font-size: 10px;
+  color: white;
+}
+.des {
+  text-align: left;
+}
+.ourdes .thecappic {
+  /* border: #00491f solid 1px; */
+  width: 50%;
+}
+.ourdes .lateq {
+  margin-top: 20px;
+  width: 30%;
+  min-width: 320px;
+}
+.ourdes .lateq h1 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(79, 79, 79);
+  font-size: 20px;
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+.ourdes .lateq p {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  font-weight: bold;
+}
+.ourdes .lateq button {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  /* border: 2px solid rgb(46, 46, 46); */
+  color: rgb(255, 255, 255);
+  background-color: #00491f;
+  border-radius: 3px;
+  font-size: 17px;
+  /* font-size: 21px; */
+  /* background-color: transparent; */
+  padding-top: 3px;
+}
+.ourdes .lateq button:hover {
+  background-color: rgb(46, 78, 46);
+  color: white;
+  /* border: 2px solid rgb(62, 105, 62); */
+}
+.ourdes .lateq button:active {
+  background-color: rgb(24, 43, 24);
+  color: white;
+  /* border: 2px solid rgb(47, 79, 47); */
+}
 .p1 {
   width: 60%;
   height: 300px;
@@ -689,5 +824,11 @@
 @media only screen and (max-width: 699px) {
   .loca {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  .ourdes {
+    margin-bottom: 0px;
   }
 }
