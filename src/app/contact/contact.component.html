@@ -1,17 +1,51 @@
-<div class="wrapper" id="contact">
-  <div class="blurb">
-    <h2><strong>Sand</strong> us an Email</h2>
-    <p>
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia
-      consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-    </p>
-  </div>
-  <form>
-    <input type="email" placeholder="Your Email" />
-    <input type="text" placeholder="Subject" />
-    <textarea placeholder="Message"></textarea>
-    <!-- <input type="submit" value="Send Message" /> -->
-    <button class="env">Send Message</button>
+<div id="filltre">
+  <div class="mm res">Showing {{ len }} product discounted</div>
+  <form id="filtre_form" class="mm">
+    <div class="filtreee">filtered:</div>
+    <div class="theSelct">
+      <select name="cars" id="cars">
+        <option value="volvo">Order by</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input type="number" placeholder="sale%" />
+    </div>
   </form>
+</div>
+<div class="the_cartes">
+  <div class="lacartee" *ngFor="let item of wwww; index as i">
+    <div class="lacartee-orgignal">
+      <div class="la-pic"></div>
+      <div class="text">
+        <div>
+          <a class="ttitte" routerLink="/otherProduct/3">DOCKER</a>
+          <div class="tyypppe">CAP</div>
+          <div class="reff">REF: PR5047POO1</div>
+        </div>
+        <div class="percent">-{{ item.percent }}%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pagination">
+  <nav aria-label="Page navigation example" class="pagggg">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" aria-label="Previous">
+          <!-- this is for the << -->
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link">1</a></li>
+      <li class="page-item"><a class="page-link">2</a></li>
+      <li class="page-item"><a class="page-link">3</a></li>
+      <li class="page-item">
+        <a class="page-link" aria-label="Next">
+          <!-- this is for the next -->
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </div>
